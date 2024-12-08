@@ -14,8 +14,6 @@ git push origin master
 git status  --> which files are  Added or Modified
 
 ---what is the use of origin ?
-hello how are you
-hello how are you
 
 
 master vs main ?
