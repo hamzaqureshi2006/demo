@@ -13,6 +13,9 @@ git push origin master
 
 git status  --> which files are  Added or Modified
 
-what is the use of origin ?
+---what is the use of origin ?
+folders --> 
+
 master vs main ?
-how to give access to our team members of private repo ?
+--- how to give access to our team members of private repo ?++++++
+project settings --> collabrators --> add people
