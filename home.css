@@ -1,0 +1,119 @@
+/* Hero Section */
+.hero-section {
+    background: url('https://picsum.photos/1920/1080') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Card Secction*/
+.card {
+    border: none; /* Removes border for a clean look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures the content doesn't spill out */
+    margin : 10px
+}
+
+.card:hover {
+    transform: scale(1.1); /* Scales the card slightly */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
+
+.featured-restaurants{
+    padding :  10px 0px
+}
+/* Card Title */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Darker text for better readability */
+}
+
+/* Card Text */
+.card-text {
+    font-size: 16px;
+    color: #666; /* Lighter text for less emphasis */
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+.card-body .btn-primary {
+    background-color: #007bff; /* Bootstrap blue */
+    border: none;
+    border-radius: 5px; /* Rounded button */
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth button hover effect */
+}
+
+/* Button Hover */
+.card-body .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px; /* Reduce image height for smaller screens */
+    }
+    .card-title {
+        font-size: 16px; /* Adjust title size */
+    }
+    .card-text {
+        font-size: 14px; /* Adjust text size */
+    }
+}
+
+/*Footer*/
+/* Social Icons */
+footer .social-icons a {
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* White text */
+    margin: 0 10px; /* Space between icons */
+    font-size: 16px; /* Adjust font size for icons or text */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect for Social Icons */
+footer .social-icons a:hover {
+    color: #007bff; /* Change to Bootstrap primary blue color */
+}
